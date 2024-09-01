@@ -1,0 +1,106 @@
+.MainDiv1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFD9E6;
+}
+
+.galaxy31 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100vh;
+    gap: 2px;
+    background-color: #FFD9E6;
+}
+
+#COlUMN11 {
+    background-color: #FFD9E6;
+}
+
+#CustomerDonationImg21 {
+    width: 100%;
+    height: 100vh;
+}
+
+#COlUMN21 {
+    background: transparent linear-gradient(122deg, #ffd9e6 0%, #f1dbee 46%, #b7cdff 100%) 0% 0% no-repeat padding-box;
+}
+
+.GoBackBtn21 {
+    margin-top: 0;
+    width: 10rem;
+    text-align: center;
+    height: 8vh;
+    float: right;
+    margin-right: 2rem;
+    border-radius: 0.5rem;
+    border: solid 1px;
+    background: #05305B 0% 0% no-repeat padding-box;
+    border: 1px solid #05305B;
+    border-radius: 0px 0px 9px 9px;
+    font-family: Open Sans, Semibold;
+    letter-spacing: 0px;
+    color: #F8FAFC;
+    font-size: 1.5rem;
+}
+
+.CaptionT {
+    text-align: center;
+    margin-top: 10rem;
+    color: #EA3275;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.receipts {
+    position: relative;
+    top: 6.5rem;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.formData21 {
+    align-items: center;
+    background-color: none;
+    width: 22rem;
+    height: 50vh;
+    margin-left: 10rem;
+    display: block;
+}
+
+.Inputs31 {
+    display: block;
+    padding: 10px 3px 5px 2px;
+    width: 100%;
+    margin-top: 1.5rem;
+    background-color: #9B9A9A;
+    /* color: #9B9A9A33; */
+    height: 7vh;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.Inputs31::placeholder {
+    padding-left: 1rem;
+    color: white;
+}
+
+.SubmitBtns1 {
+    width: 100%;
+    background-color: #EA3275;
+    height: 7vh;
+    border-radius: 0.5rem;
+    margin-top: 3.5rem;
+    color: #FFFFFF;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+}
+
+.DonateCharity21 {
+    margin-left: 10rem;
+    margin-top: -6rem;
+    font-family: serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}

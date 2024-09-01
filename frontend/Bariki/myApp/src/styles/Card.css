@@ -1,0 +1,9 @@
+.word {
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0.48px;
+    color: #000000;
+    opacity: 1;
+    font-family: Open Sans;
+}

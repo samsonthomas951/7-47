@@ -1,0 +1,9 @@
+.searchbar::placeholder {
+    padding-left: 1rem;
+    color: #999;
+}
+
+.input-icon {
+    margin-left: 55rem;
+    margin-top: -2rem;
+}

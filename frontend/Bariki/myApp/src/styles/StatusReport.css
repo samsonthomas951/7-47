@@ -1,0 +1,43 @@
+body {
+   
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, rgba(255, 182, 193, 0.5), rgba(173, 216, 230, 0.5));
+}
+
+.status-report-container {
+    margin-top:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center the content vertically */
+    width: 100%;
+    background: linear-gradient(to right, rgba(255, 182, 193, 0.5), rgba(173, 216, 230, 0.5));
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding is included in width calculation */
+    border-bottom: 1px solid #ddd; /* Optional: to give a visual separation */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: for a slight shadow effect */
+}
+
+.status-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.status-block {
+    margin-bottom: 20px;
+}
+
+.status-block h3 {
+    margin-top: 0;
+}
+
+.status-block p {
+    margin: 5px 0;
+}
+
+.status-image {
+    max-width: 200px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 30px; /* Position the image 30px from the right */
+}

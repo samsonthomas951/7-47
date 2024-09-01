@@ -1,0 +1,128 @@
+.MainDiv {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFD9E6;
+}
+
+.galaxy3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100vh;
+    gap: 2px;
+    background-color: #FFD9E6;
+}
+
+#COlUMN1 {
+    background-color: #FFD9E6;
+}
+
+#CustomerDonationImg2 {
+    width: 100%;
+    height: 100vh;
+}
+
+.CharityBtn2 {
+    margin-top: -8rem;
+    margin-left: 0;
+}
+
+.myCharityBtn2 {
+    width: 10rem;
+    background-color: #02101E;
+    color: #F8FAFC;
+    border-radius: 2rem;
+    height: 6vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#COlUMN2 {
+    background: transparent linear-gradient(122deg, #ffd9e6 0%, #f1dbee 46%, #b7cdff 100%) 0% 0% no-repeat padding-box;
+}
+
+.GoBackBtn2 {
+    margin-top: 0;
+    width: 10rem;
+    text-align: center;
+    height: 8vh;
+    float: right;
+    margin-right: 2rem;
+    border-radius: 0.5rem;
+    border: solid 1px;
+    background: #05305B 0% 0% no-repeat padding-box;
+    border: 1px solid #05305B;
+    border-radius: 0px 0px 9px 9px;
+    font-family: Open Sans, Semibold;
+    letter-spacing: 0px;
+    color: #F8FAFC;
+    font-size: 1.5rem;
+}
+
+.navbarS {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+.label3 {
+    margin-left: 10rem;
+    font-family: serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.label4 {
+    margin-right: 10rem;
+    font-family: serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.formData2 {
+    align-items: center;
+    background-color: none;
+    width: 22rem;
+    height: 50vh;
+    margin-left: 10rem;
+    display: block;
+}
+
+.Inputs3 {
+    display: block;
+    padding: 10px 3px 5px 2px;
+    width: 100%;
+    margin-top: 1.5rem;
+    background-color: #9B9A9A;
+    /* color: #9B9A9A33; */
+    height: 7vh;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.Inputs3::placeholder {
+    padding-left: 1rem;
+    color: white;
+}
+
+.SubmitBtns {
+    width: 100%;
+    background-color: #EA3275;
+    height: 7vh;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+    color: #FFFFFF;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+}
+
+.DonateCharity2 {
+    margin-left: 10rem;
+    margin-top: -6rem;
+    font-family: serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
